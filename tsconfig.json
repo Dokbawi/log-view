@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "ES2017",
+    "module": "commonjs",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "declaration": true,
+    "incremental": true
+  },
+  "compileOnSave": true,
+  "include": ["src", "types", "tsconfig.build.json"],
+  "exclude": ["node_modules", "dist"]
+}
